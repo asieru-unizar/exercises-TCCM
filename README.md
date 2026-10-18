@@ -8,7 +8,6 @@ Practice repository for *Introduction to Linux, Session 5: Git and GitHub* (Univ
 | File | What it does |
 |---|---|
 | `orca_summary.sh` | One line per ORCA output: file name, status (OK / ERROR / RUNNING) and final energy |
-| `launch_orca` | Writes a Slurm job for every input given and submits it (Session 4) |
 | `examples/` | Eleven small ORCA outputs to test the scripts on |
 | `.gitignore` | Files Git must never track (job files, messages, scratch) |
 
