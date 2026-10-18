@@ -1,0 +1,42 @@
+                                 *****************
+                                 * O   R   C   A *
+                                 *****************
+
+                       Program Version 6.1.1 -  RELEASE  -
+
+# Trimmed, synthetic example for the course: only the lines the scripts read are kept.
+# Method and numbers are illustrative.
+
+================================================================================
+                                       INPUT FILE
+================================================================================
+NAME = formaldehyde_opt.inp
+|  1> ! B3LYP def2-SVP Opt Freq
+|  2> 
+|  3> * xyz 0 1
+|  4>   C    0.000000    0.000000   -0.530000
+|  5>   O    0.000000    0.000000    0.680000
+|  6>   H    0.000000    0.940000   -1.120000
+|  7>   H    0.000000   -0.940000   -1.120000
+|  8> *
+|  9> 
+| 10>                          ****END OF INPUT****
+================================================================================
+
+                         *****************************
+                         * Geometry Optimization Run *
+                         *****************************
+
+                       *************************************************
+                       *               GEOMETRY OPTIMIZATION CYCLE   1  *
+                       *************************************************
+
+               *****************************************************
+               *                     ERROR                         *
+               *           SCF NOT CONVERGED AFTER 125 CYCLES      *
+               *****************************************************
+
+ORCA finished by error termination in SCF
+Calling Command: mpirun -np 8  /opt/ohpc/pub/apps/orca/orca_scf_mpi formaldehyde_opt.gbw b formaldehyde_opt
+[file orca_tools/qcmsg.cpp, line 465]:
+  .... aborting the run
